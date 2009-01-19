@@ -1,0 +1,14 @@
+BlogArticle:
+  first_article:
+    user_id: admin
+    status: published
+    title: Le WEB 2.0 dans tous ses etats
+    subcontent: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut dolor. Fusce dui leo, hendrerit quis, euismod eget, condimentum malesuada, nibh. Nulla libero pede, adipiscing nec, pharetra at, condimentum vel, nulla. Integer ac pede. Vestibulum consequat felis at justo consequat pharetra. Vestibulum consectetuer scelerisque velit. Phasellus faucibus.
+    content: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut dolor. Fusce dui leo, hendrerit quis, euismod eget, condimentum malesuada, nibh. Nulla libero pede, adipiscing nec, pharetra at, condimentum vel, nulla. Integer ac pede. Vestibulum consequat felis at justo consequat pharetra. Vestibulum consectetuer scelerisque velit. Phasellus faucibus. Donec sollicitudin. Nullam tempus tincidunt magna. Duis sagittis, erat non feugiat tincidunt, odio velit lobortis turpis, in laoreet est elit a ante. Praesent mi nisi, semper vel, placerat at, mollis in, tortor. Cras cursus urna sed turpis. Nullam eu magna. Aenean molestie, quam in semper dapibus, lorem erat cursus tellus, at auctor velit dui quis metus. Nunc euismod. Mauris lectus elit, blandit in, tincidunt ac, lobortis vitae, tortor. In suscipit. Maecenas vestibulum, dolor eget bibendum condimentum, elit velit pellentesque dolor, quis auctor elit ante sit amet magna.
+
+  second_article:
+    user_id: admin
+    status: published
+    title: Le deuxieme article de ce blog
+    subcontent: Vestibulum in sem. Cras ac ligula vel risus vestibulum luctus. Praesent molestie risus. Fusce eget massa quis turpis fermentum imperdiet. Sed adipiscing felis sed tellus. Mauris dictum viverra ante. Sed tempus. Morbi tincidunt orci non magna. In purus.
+    content: Vestibulum in sem. Cras ac ligula vel risus vestibulum luctus. Praesent molestie risus. Fusce eget massa quis turpis fermentum imperdiet. Sed adipiscing felis sed tellus. Mauris dictum viverra ante. Sed tempus. Morbi tincidunt orci non magna. In purus. Etiam sed velit sed urna dignissim vulputate. Fusce libero. Quisque malesuada mi non nibh. Duis lectus odio, lobortis id, ultricies sit amet, suscipit vitae, tortor. Cras eleifend, ante placerat tempor luctus, tellus enim rhoncus augue, eget lobortis felis velit vitae leo. Fusce ornare. Etiam arcu velit, scelerisque tempus, venenatis ac, hendrerit sit amet, arcu. Sed sit amet lacus. Integer faucibus nibh vitae justo. Quisque vel pede sagittis ipsum ullamcorper cursus. Vivamus sagittis risus a libero.

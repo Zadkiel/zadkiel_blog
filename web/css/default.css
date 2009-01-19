@@ -1,0 +1,374 @@
+body{
+margin: 0;
+}
+
+/*
+** FIRST PART ***
+*/
+
+#first_part{
+margin: 0;
+padding: 0;
+background-image:url(../img/background_header.png);
+background-position:center top;
+background-repeat:no-repeat;
+width:100%;
+height: 410px;
+background-color: #EDEBE6;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+#header{
+margin-top: 5em;
+}
+
+#menu ul{
+list-style-type:none;
+}
+
+#menu li{
+height:auto !important;
+}
+
+#menu li a{
+font-size: 3.2em;
+color:#FFFFFF;
+font-family:Arial Black,Arial,Helvetica,sans-serif;
+font-weight:bolder;
+height:auto !important;
+letter-spacing:-3px;
+line-height: 34px;
+text-decoration:none;
+text-transform:uppercase;
+padding-right: 0.2em;
+}
+
+#menu li.current a{
+color: #94C7B6;
+}
+
+#menu li a:hover{
+color: #94C7B6;
+}
+
+#menu li.current:before{
+/*content: url(../img/star.png);*/
+}
+
+.title{
+background:transparent url(../img/title.png) no-repeat scroll 0 0;
+height: 200px;
+width: 525px;
+}
+
+.title span{
+display: none;
+}
+
+/*
+*** TRANSITION ONE
+*/
+
+#transition_one{
+background: url(../img/transition_one.jpg) repeat-x scroll center center; 
+height: 20px; 
+width: 100%;
+padding: 0;
+}
+
+/*
+*** SECONDE PART ***
+*/
+#seconde_part{
+background-color: #403B33;
+text-align: center;
+padding-top: 20px;
+}
+
+#seconde_part h2{
+color: #C0F686;
+/* IE BUG */
+text-align: center;
+font-family:Arial,Helvetica,sans-serif;
+font-weight:bold;
+font-size: 2.8em;
+}
+
+
+
+#seconde_part  #floral{
+background:transparent url(../img/floral.png) no-repeat scroll 10px bottom;
+height: 280px;
+}
+
+#seconde_part p.author{
+color: #B0DACB;
+/*text-decoration:none;*/
+font-family: Georgia;
+font-size: 1.4em;
+text-align: right;
+padding-right: 10px;
+}
+
+#seconde_part p a{
+color: #B0DACB;
+/*text-decoration:none;*/
+font-family: Georgia;
+font-size: 1.4em;
+}
+
+#seconde_part p{
+}
+
+#seconde_part p a:hover{
+background-color: #776A55;
+}
+
+#seconde_part p.delicious{
+border-bottom: 1px dotted #B0DACB;
+padding-bottom: 5px;
+}
+
+blockquote {
+  font: 1.4em/1.6em Georgia, "Times New Roman", Times, serif;
+  width: 270px;
+  background: url(../img/close-quote.gif) no-repeat right bottom;
+  padding-left: 18px;
+  text-indent: -18px;
+  color: #B0DACB;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+blockquote:first-letter {
+  background: url(../img/open-quote.gif) no-repeat left top;
+  padding-left: 18px;
+  font: italic 2em Georgia, "Times New Roman", Times, serif;
+}
+
+/*
+*** TRANSITION TWO
+*/
+#transition_two{
+background: url(../img/transition_two.jpg) repeat-x scroll center center; 
+height: 17px; 
+width: 100%;
+padding: 0;
+}
+
+/*
+*** THIRD PART ***
+*/
+#third_part{
+/*
+background-image:url(../img/background_third_part.png);
+background-position:left top;
+background-repeat:no-repeat;
+*/
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+background-color: #3F7B79;
+text-align: right;
+
+}
+
+#third_part h2{
+/* IE BUG */
+text-align: right;
+color: #C6BEC7;
+font-family:Arial,Helvetica,sans-serif;
+font-weight:bold;
+font-size: 3em;
+border-top: 1px solid #AECECB;
+}
+
+#third_part .article h3{
+color: #87D0CE;
+font-family:Arial,Helvetica,sans-serif;
+font-weight:bold;
+font-size: 1.8em;
+padding-top: 10px;
+margin-bottom: 0.1em;
+}
+
+#third_part .article h3 a{
+text-decoration: none;
+background-color: #87D0CE;
+color: #3F7B79;
+/*color: #87D0CE;*/
+}
+
+#third_part .article h3 a:hover{
+background-color: #193736;
+color: #87D0CE;
+}
+
+#third_part ul{
+/* IE BUG */
+text-align: right;
+list-style-type:none;
+}
+
+#third_part li{
+height:auto !important;
+}
+
+#third_part li a{
+font-size: 2.2em;
+/*color:#AECECB;*/
+color:#DFD6E0;
+font-family:Georgia;
+height:auto !important;
+text-decoration:none;
+border-bottom: 1px dotted #AECECB;
+}
+
+#third_part li.current a{
+color: #94C7B6;
+}
+
+#third_part li a:hover{
+background-color: #53A29F;
+}
+
+#third_part #last_article li{
+margin-bottom: 1em;
+}
+
+#third_part .left_element{
+margin-bottom: 1em;
+}
+
+#third_part #submit_search{
+background-image: none;
+border: 1px solid #BDB7BE;
+background-color: #DFD6E0;
+color: #3F7B79;
+font-family:Georgia;
+}
+
+#third_part #input_search{
+height: 20px;
+float: left;
+}
+
+#third_part .article{
+border-top: 1px solid #AECECB;
+text-align: left;
+}
+
+#third_part .article .info_article{
+text-align: center;
+padding-top: 8px;
+color: #122E2D;
+font-size: 1em;
+font-family:Georgia;
+}
+
+#third_part .article .date{
+font-weight: bold;
+}
+
+#third_part .article .comment a{
+font-size: 0.9em;
+text-decoration:none;
+color: #122E2D;
+border-bottom: 1px dotted #122E2D;
+}
+
+#third_part .article .comment{
+padding-top: 10px;
+}
+
+#third_part .article .categorie a{
+font-size: 0.9em;
+text-decoration:none;
+color: #122E2D;
+border-bottom: 1px dotted #122E2D;
+}
+
+#third_part .article .categorie a:hover{
+background-color: #53A29F;
+}
+
+#third_part .article .comment a:hover{
+background-color: #53A29F;
+}
+
+#third_part .article .content{
+font-size: 1.4em;
+font-family:Georgia;
+text-align: left;
+color: #CFEFEE;
+}
+
+#third_part .article .time{
+margin-top: 0.3em;
+margin-bottom:1em;
+font-family:Georgia;
+font-style: italic;
+}
+
+#third_part .article .more p{
+text-align: right;
+padding-right: 1.5em;
+}
+#third_part .article .more a{
+font-family:Georgia;
+background-color: #122E2D;
+text-decoration: none;
+color: #3F7B79;
+padding: 0.3em;
+}
+/***
+*** THE FOX !!!
+**/
+
+#wrap_fox{
+position: absolute;
+top: 350px;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+background:transparent url(../img/fox.png) no-repeat scroll;
+width: 52px;
+height: 82px;
+}
+
+#fox{
+position: relative;
+}
+
+
+/** TRANSITION THREE */
+
+#transition_three{
+background: url(../img/transition_three.jpg) repeat-x scroll center center; 
+height: 14px; 
+width: 100%;
+padding: 0;
+}
+/** FOOTER **/
+
+#fourth_part{
+margin: 0;
+padding: 0;
+background-image:url(../img/background_footer.png);
+background-position:center bottom;
+background-repeat:no-repeat;
+width:100%;
+background-color: #000A0A;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+#garden_state{
+height: 20px;
+width: 100%;
+background-color: #67AA6C;
+}
+
+#footer{
+height: 400px;
+}

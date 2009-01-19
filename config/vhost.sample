@@ -1,0 +1,21 @@
+    # Be sure to only have this line once in your configuration
+    NameVirtualHost 127.0.0.1:80
+
+    # This is the configuration for blog
+    Listen 127.0.0.1:80
+
+    <VirtualHost 127.0.0.1:80>
+      ServerName blog.localhost
+      DocumentRoot "F:\wamp\www\workspace_aptana\BlogZadkiel2\web"
+      DirectoryIndex index.php
+      <Directory "F:\wamp\www\workspace_aptana\BlogZadkiel2\web">
+        AllowOverride All
+        Allow from All
+      </Directory>
+
+      Alias /sf "F:\symfony1.2rel\data\web\sf"
+      <Directory "F:\symfony1.2rel\data\web\sf">
+        AllowOverride All
+        Allow from All
+      </Directory>
+    </VirtualHost>

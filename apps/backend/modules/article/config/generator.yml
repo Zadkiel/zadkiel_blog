@@ -1,0 +1,27 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           BlogArticle
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          blog_article
+    with_propel_route:     1
+    
+    config:
+      actions: ~
+      fields:
+        title:             { label: Titre de l article}
+      list:    ~
+      filter:  ~
+      form:    ~
+      edit:
+        title:             Edition de l article "%%title%%" (#%%id%%)
+        fields:
+          content:         { params: rich=fck size=90x30 }
+      new:
+        title:             Nouvel article
+        fields:
+          content:         { params: rich=fck size=90x30 }

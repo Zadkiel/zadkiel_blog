@@ -1,0 +1,1 @@
+<?php include_partial('blog_article_list', array('blog_article_list' => $blog_article_list)) ?>

@@ -1,0 +1,7 @@
+BlogCategory:
+  web2.0:     { name : web2.0 }
+  javascript: { name : javascript }
+  html:       { name : html }
+  css:        { name : css }
+  php:        { name : php }
+

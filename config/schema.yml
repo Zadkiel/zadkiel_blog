@@ -1,0 +1,42 @@
+propel:
+  blog_article:
+    id:             ~
+    user_id:        { type: integer, foreignTable: sf_guard_user, foreignReference: id, required: true, onDelete: cascade }
+    status:         { type: varchar(255), required: true }
+    title:          { type: varchar(255), required: true }
+    subcontent:     { type: longvarchar, required: true } 
+    content:        { type: longvarchar, required: true }
+    published_at:   timestamp
+    created_at:     timestamp
+    updated_at:     timestamp
+ 
+  blog_comment:
+    id:          ~
+    article_id:  { type: integer, foreignReference: id, foreignTable: blog_article, onDelete: cascade, onUpdate: cascade, required: true }
+    user:        varchar(255)
+    website:     varchar(255)
+    content:     longvarchar
+    created_at:  timestamp
+    updated_at:  timestamp
+    
+  blog_category:
+    id:          ~
+    name:        varchar(255)
+  
+  blog_tag:
+    id:          ~
+    name:        varchar(255)
+
+  blog_link:
+    id:                 ~
+    name:               varchar(255)
+    target:             varchar(255)
+    description:        longvarchar
+ 
+  blog_tag_article:
+    tag_id:      { type: integer, primaryKey: true, foreignReference: id, foreignTable: blog_tag, onDelete: cascade, onUpdate: cascade, required: true }
+    article_id:  { type: integer, primaryKey: true, foreignReference: id, foreignTable: blog_article, onDelete: cascade, onUpdate: cascade, required: true }
+ 
+  blog_category_article:
+    category_id: { type: integer, primaryKey: true, foreignReference: id, foreignTable: blog_category, onDelete: cascade, onUpdate: cascade, required: true }
+    article_id:  { type: integer, primaryKey: true, foreignReference: id, foreignTable: blog_article, onDelete: cascade, onUpdate: cascade, required: true }

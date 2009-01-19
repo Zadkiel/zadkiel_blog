@@ -1,0 +1,8 @@
+BlogCategoryArticle:
+  first_category_article:
+    category_id: javascript
+    article_id: first_article
+  second_category_article:
+    category_id: html
+    article_id: second_article
+
